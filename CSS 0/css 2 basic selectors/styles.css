@@ -1,0 +1,21 @@
+body{
+    margin:10px;
+}
+
+#products{
+    color: red;
+    
+}
+
+.product{
+    background-color: yellowgreen;
+    width: 600px;
+}
+
+h2{
+    text-align:  center;
+}
+
+a[target="_blank"] {
+    color: red;
+}
