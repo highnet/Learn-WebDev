@@ -1,0 +1,14 @@
+.product-1{
+    background-color: gold;
+    width: 300px;
+}
+
+.product-2{
+        background-color: silver;
+            width: 300px;
+}
+
+.highlight{
+    font-weight: bold;
+    color: red;
+}
