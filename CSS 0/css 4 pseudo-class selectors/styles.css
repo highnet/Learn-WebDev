@@ -1,0 +1,28 @@
+body{
+    margin: 10px;
+}
+
+article p:first-child{
+    font-size: 140%;
+    font-style: italic;
+}
+
+article p:last-child{
+    font-size: 80%;
+    font-weight: bold;
+}
+
+article ol li:nth-child(odd){
+    color: red;
+}
+article ol li:nth-child(even) {
+    color: blue;
+}
+
+a:visited{
+    color: deeppink;
+}
+
+a:hover, a:focus{
+    color: gold;
+}
