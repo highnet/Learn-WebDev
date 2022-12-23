@@ -1,3 +1,29 @@
 body{
     margin: 10px;
 }
+
+@font-face {
+    font-family: 'opensans';
+    src: url('opensans-bold-webfont.woff2') format('woff2'),
+        url('opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('opensans-regular-webfont.woff2') format('woff2'),
+        url('opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+
+h1 {
+    font-family: 'opensans';
+}
+
+p{
+    font-family: 'opensans';
+}
