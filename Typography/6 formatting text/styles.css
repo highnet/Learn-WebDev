@@ -1,3 +1,14 @@
 body{
     margin: 10px;
 }
+
+p{
+    width: 20;
+    border: 3px solid gold;
+    text-align: left;
+    text-indent: 1rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    column-count: 2;
+}
+
