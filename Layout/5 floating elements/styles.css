@@ -1,3 +1,25 @@
 body{
     margin: 10px;
 }
+
+.avatar{
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
+
+
+.tweet{
+    border: 3px solid lightblue;
+    overflow: hidden;
+}
+
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
