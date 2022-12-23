@@ -1,3 +1,18 @@
-body{
+body {
     margin: 10px;
+}
+
+.box1,.box2{
+    width: 200px;
+        height: 200px;
+}
+
+.box1 {
+
+    background: linear-gradient(45deg, lightblue, white, gold)
+}
+
+.box2 {
+
+    background: radial-gradient(lightblue, white, gold)
 }

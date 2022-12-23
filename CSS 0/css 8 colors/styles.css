@@ -1,3 +1,9 @@
 body{
     margin: 10px;
 }
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #3299a8;
+}
