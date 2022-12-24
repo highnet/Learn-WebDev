@@ -1,3 +1,31 @@
 body{
     margin: 10px;
 }
+
+.bg-dishes {
+    background: url('css-sprite-combined.png') 0px -0px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.bg-landing {
+    background: url('css-sprite-combined.png') -100px -0px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.bg-rocketship {
+    background: url('css-sprite-combined.png') -200px -0px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.bg-rocketship-1 {
+    background: url('css-sprite-combined.png') -300px -0px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
