@@ -1,3 +1,27 @@
 body {
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: gold;
+}
+
+.container {
+    perspective: 200px;
+}
+
+.container:hover .box {
+    transform: translateZ(50px) rotateY(45deg) scale(1.5);
+    transform-origin: 50% 50%;
+}
+
+.container:hover .box-special {
+    transform: translateZ(50px) rotateY(45deg);
+    transform-origin: 50% 50%;
 }
