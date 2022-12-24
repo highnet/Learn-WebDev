@@ -1,0 +1,11 @@
+body{
+    margin: 10px;
+}
+
+.meal{
+    filter: blur(1px) grayscale(90%);
+}
+
+.meal:hover{
+        filter: blur(0px);
+}
