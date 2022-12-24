@@ -3,6 +3,25 @@
   <head>
     <title>Title</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <form action="">
+      <div>
+        <input type="radio" name="membership" id="silver" checked />
+        <label class="label-inline" for="silver">Silver</label>
+      </div>
+      <div>
+        <input type="radio" name="membership" id="gold" />
+        <label class="label-inline" for="gold">Gold</label>
+      </div>
+      <div>
+        <input type="radio" name="membership" id="platinum" disabled />
+        <label class="label-inline" for="platinum">Platinum</label>
+      </div>
+    </form>
+  </body>
 </html>
